@@ -20,7 +20,7 @@ from pkginfo import Wheel
 # Package dependencies can vary depending on the Python version.
 # We thus have to run pip-compile with the lowest Python version that
 # the project supports.
-EXPECTED_PYTHON_VERSION = (3, 6)
+EXPECTED_PYTHON_VERSION = (3, 7)
 
 repo_root = Path(__file__).resolve().parent.parent
 script_name = Path(__file__).name
